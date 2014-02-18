@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title>Raj</title>
+</head>
+<body>
+
+<script>
+
+var Raj = function Raj(d, b) {
+	var c = document.getElementsByTagName("script")[0]
+		, a = document.createElement("script");
+	a.src = d;
+	a.addEventListener ?
+		a.addEventListener("load", b, !1) :
+		a.onreadystatechange = function() {
+	  	a.readyState in {loaded:1, complete:1} && (a.onreadystatechange = null, b());
+		};
+	c.parentNode.insertBefore(a, c);
+}
+
+// example
+Raj('http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js', function() {
+	$(document.body).append('<h2 />').children().html('hello jQuery');
+});
+
+</script>
+</body>
+</html>

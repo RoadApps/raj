@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Raj</title>
+</head>
+<body>
+
+<script>
+function Raj(src, cb) {
+  var obj;
+  obj = document.createElement("object");
+  obj.data = src;
+  obj.width = 0;
+  obj.height = 0;
+  obj.onerror = obj.onload = function() {
+    var s = document.createElement("script");
+    s.src = src;
+    s.onload = function() {
+      cb(obj, src);
+    };
+    s.onreadystatechange = function() {
+      "loaded" !== s.readyState && "complete" !== s.readyState || cb(obj, src);
+    };
+    document.getElementsByTagName("head")[0].appendChild(s);
+  };
+  document.body.appendChild(obj);
+}
+Raj("http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js", function(obj, src) {
+	$(document.body).append('<h1>hello jQuery</h1>');
+});
+</script>
+</body>
+</html>

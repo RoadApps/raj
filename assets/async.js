@@ -1,0 +1,1 @@
+parent.document.getElementById('r').innerHTML += "<br>2) js done";

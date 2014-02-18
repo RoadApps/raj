@@ -1,0 +1,1 @@
+_debug('somethign.js ok');
