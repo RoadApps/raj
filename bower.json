@@ -1,0 +1,26 @@
+{
+  "name": "raj",
+  "version": "1.0.0",
+  "main": "dist/Raj.1.0.1.js",
+  "description": "Fast and lightweight Javascript async loader.",
+  "homepage": "http://usablica.github.com/intro.js/",
+  "author": { "name": "Nechtan", "homepage": "http://github.com/nechtan" },
+  "repository": {
+	  "type": "git",
+	  "url": "git://github.com/roadapps/raj.git"
+	},
+  "ignore": [
+    "**/.*",
+    "*.md",
+    "*.html",
+    "LICENSE",
+    "package.json",
+    "bower.json"
+  ],
+  "keywords": [
+    "raj",
+    "javascript",
+    "lazy",
+    "loader"
+  ]
+}

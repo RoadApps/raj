@@ -1,7 +1,7 @@
 ## Raj v.1.0.0 - RoadAppsJavascript
 ---
 
-#### Async Script Loader with Callback and Preloader
+#### Fast and lightweight Javascript async loader with preloader.
 
 
 
