@@ -1,7 +1,7 @@
 {
   "name": "raj",
-  "version": "1.0.0",
-  "main": "dist/Raj.1.0.0.js",
+  "version": "1.0.1",
+  "main": "raj.js",
   "description": "Fast and lightweight Javascript async loader.",
   "homepage": "http://usablica.github.com/intro.js/",
   "author": { "name": "Nechtan", "homepage": "http://github.com/nechtan" },
@@ -11,6 +11,7 @@
 	},
   "ignore": [
     "**/.*",
+    "assets",
     "*.md",
     "*.html",
     "LICENSE",

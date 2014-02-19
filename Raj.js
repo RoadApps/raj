@@ -1,5 +1,5 @@
 /**
- * Raj v1.0.0 - RoadApps Async Javascript Loader
+ * Raj v1.0.1 - RoadApps Async Javascript Loader
  * @license Copyright (c) 2013-2014, Road Apps All Rights Reserved.
  * Available via the MIT.
  * see: http://github.com/roadapps for details
