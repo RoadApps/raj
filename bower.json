@@ -1,6 +1,6 @@
 {
   "name": "raj",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "main": "raj.js",
   "description": "Fast and lightweight Javascript async loader.",
   "homepage": "http://usablica.github.com/intro.js/",
